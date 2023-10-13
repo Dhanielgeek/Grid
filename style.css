@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+    grid-template-rows: 190px 190px 190px;
+    gap: 5px;
+}
+.first{
+    background-color: rgb(51, 50, 50);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 4px;
+
+}
+.first1{
+ background-color: lightcoral;
+ grid-column: 1/2;
+ grid-row: 1/2;
+}
+.first2{
+    background-color: orangered;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.first3{
+    background-color: goldenrod;
+}
+.first4{
+    background: lightblue;
+}
+.first5{
+    background: darkkhaki;
+}
+.first6{
+    background: lightskyblue;
+}
+.second{
+    background-color: rgb(51, 50, 50);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 5px;
+}
+.second1{
+    background-color: sandybrown;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.second2{
+    background-color: seagreen;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.second3{
+    background-color: slateblue;
+}
+.second4{
+    background-color: sienna;
+}
+.thrid{
+    background-color: rgb(51, 50, 50);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 2px;
+}
+.thrid1{
+    background-color: greenyellow;
+    grid-column: 1/7;
+    grid-row: 1/2;
+}
+.thrid2{
+    background-color: aquamarine;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.thrid3{
+    background-color: brown;
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+.thrid4{
+    background-color: mediumseagreen;
+    grid-row: 3/4;
+    grid-column: 1/7;
+}
+.fourth{
+    background-color: rgb(51, 50, 50);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 2fr 3fr 1fr  ;
+    gap: 4px;
+}
+.fourth1{
+    background-color: orangered;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.fourth2{
+    background-color: red;
+    grid-column: 4/7;
+    grid-row: 1/2;
+}
+.fourth3{
+    background-color: lightgreen;
+    grid-column: 1/3;
+    grid-row: 2/ 3 ;
+}
+.fourth4{
+    background-color: darkcyan;
+    grid-column: 3/7;
+    grid-row: 2/3;
+}
+.fourth5{
+    background-color: orangered;
+    grid-row: 3/4;
+    grid-column: 1/7;
+}
+.fifth{
+    background-color: rgb(51, 50, 50);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 4px;
+}
+.fifth1{
+    background-color: lightcoral;
+}
+.fifth2{
+    background-color: lightseagreen;
+}
+.fifth3{
+    background: goldenrod;
+}
+.fifth4{
+    background: darkgreen;
+}
+.fifth5{
+    background: red;
+}
+.fifth6{
+    background: aqua;
+}
+.fifth7{
+    background: lightseagreen;
+}
+.fifth8{
+    background: darkgreen;
+}
+.fifth9{
+    background: tomato;
+}
+.fifth10{
+    background: darkcyan;
+}
+.fifth11{
+    background: sienna;
+}
+.fifth12{
+    background: slateblue;
+}
+.fifth13{
+    background: greenyellow;
+}
+.fifth14{
+    background: yellow;
+}
+.fifth15{
+    background: pink;
+}
+.fifth16{
+    background: darkorchid;
+}
+.fifth17{
+    background: aquamarine;
+}
+.fifth18{
+    background: darkcyan;
+}
+.sixth{
+    background-color: rgb(51, 50, 50);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.sixth1{
+    background: darkmagenta;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.sixth2{
+    background: olive;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.sixth3{
+    background: indianred;
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.sixth4{
+    background: yellowgreen;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.sixth5{
+    background: lightcoral;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.sixth6{
+    background: mediumvioletred;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.sixth7{
+    background: mediumaquamarine;
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+.sixth8{
+    background: sandybrown;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.sixth9{
+    background: salmon;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.sixth10{
+    background: hotpink;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.sixth11{
+    background: maroon;
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+.sixth12{
+    background: mediumpurple;
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+.seventh{
+    background-color: rgb(51, 50, 50);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    gap: 7px;
+}
+.seventh1{
+ background: green;
+ grid-row: 1/2;
+ grid-column: 1/2;
+}
+.seventh2{
+    background: red;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.seventh3{
+    background: purple;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.seventh4{
+    background: rgb(51, 50, 50);
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.seventh4_1{
+    background: sandybrown;
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+.seventh4_2{
+    background: aquamarine;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.seventh4_3{
+    background: lightseagreen;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.eighth{
+    background-color: rgb(51, 50, 50);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 5px;
+}
+.eighth1{
+    background-color: sandybrown;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.eighth2{
+    background: darkmagenta;
+    grid-column: 2/3;
+    grid-row: 2/1;
+}
+.eighth3{
+    background: lightseagreen;
+    grid-column: 3/4;
+}
+.eighth4{
+    background: saddlebrown;
+    grid-column: 4/5;
+}
+.eighth5{
+    background: seagreen;
+}
+.eighth6{
+    background: slateblue;
+}
+.eighth7{
+    background: tomato;
+}
+.eighth8{
+    background: teal;
+    grid-column: 3/6;
+}
+.eighth9{
+    background: indianred;
+    grid-column: 1/6;
+}
+.nineth{
+    background-color: rgb(51, 50, 50);
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-rows: 2fr 3fr 3fr;
+    gap: 5px;
+}
+.nineth1{
+    background: saddlebrown;
+    grid-column: 1/4;
+    grid-row: 1/2 ;
+}
+.nineth2{
+    background: salmon;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.nineth3{
+    background:seagreen;
+    grid-column: 2/4;
+}
+.nineth4{
+    background: palevioletred;
+}
+.nineth5{
+    background: slateblue;
+}
